@@ -39,11 +39,10 @@ public class Z {
 
 		Scanner input=new Scanner(System.in);
 
-		System.out.print("차수: ");
 		int n=input.nextInt();
-		System.out.print("행: ");
+
 		int x=input.nextInt();
-		System.out.print("열: ");
+
 		int y=input.nextInt();
 
 		System.out.println(getPath(n, x, y));
